@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ 
+<head>
+ 
+	<title>[Title]</title>
+ 
+	<!-- JavaScript -->
+	<script type="text/javascript">
+		// Put code here or set the src attribute
+	</script>
+ 
+	<!-- CSS -->
+	<style type="text/css">
+	<!--
+@keyframes example {
+    0%   { left:2%; }
+    100% { left:97%; }
+}
+
+
+		body { background-color: #3b3b3b; margin: 0; padding: 0; font-family: sans-serif; font-size: 12px; }
+		p { margin-bottom: 10px;}
+		#score {width:100%;}
+		#bar { background-color: black; width:10px; height:21vh; margin: 3; margin-top: 20px; padding:none; z-index: 1; position: absolute;
+				    animation-name: example;
+    				animation-duration: 60s;
+    				animation-iteration-count: infinite;
+    				animation-timing-function: linear;
+			}
+ 		button { width: 27%; height: 20vh; margin: 3%;  color: #ebebeb; font-size: 15vh; text-shadow: 3px 3px #3b3b3b;}
+ 		.sound1 { background-color: #D6A33B; }
+ 		.sound2 { background-color: #C95D39; }
+ 		.sound3 { background-color: #6F0088; }
+ 		.sound4 { background-color: #00A2BB; }
+ 		.sound5 { background-color: #00933C; }
+ 		.sound6 { background-color: #00005C; }
+	-->
+	</style>
+ 
+</head>
+ 
+<body>
+ 
+ 		<div id="bar">
+
+		</div>
+
+	<div id="score"> 
+			<img src="images/score8.png" alt="score8"></img>
+	</div> 
+
+	<audio id="sound1" src="sounds/sound1.mp3"></audio>
+	<audio id="sound2" src="sounds/sound2.mp3"></audio>
+	<audio id="sound3" src="sounds/sound3.mp3"></audio>
+	<audio id="sound4" src="sounds/sound4.mp3"></audio>
+	<audio id="sound5" src="sounds/sound5.mp3"></audio>
+	<audio id="sound6" src="sounds/sound6.mp3"></audio> 
+
+	<button class="sound1" onclick="document.getElementById('sound1').play()">1</button>
+ 	<button class="sound2" onclick="document.getElementById('sound2').play()">2</button>
+ 	<button class="sound3" onclick="document.getElementById('sound3').play()">3</button>
+ 	<button class="sound4" onclick="document.getElementById('sound4').play()">4</button>
+ 	<button class="sound5" onclick="document.getElementById('sound5').play()">5</button>
+ 	<button class="sound6" onclick="document.getElementById('sound6').play()">6</button>
+ 
+</body>
+ 
+</html>
