@@ -1,7 +1,7 @@
 * {}
 
 #wrapper {
-	width:500px;
+	width:960px;
 	min-height:1000px;
 	margin:0 auto; 
 	padding:0;
@@ -14,3 +14,10 @@
 }
 
 
+#triangle1 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+}
