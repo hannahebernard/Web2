@@ -1,6 +1,6 @@
 * {}
 
-#wrapper {
+#wrapper {position:relative;
 	width:960px;
 	min-height:1000px;
 	margin:0 auto; 
@@ -23,13 +23,22 @@
 }
 
 #cube1 {display: block;
-	position:relative;
+	position:absolute;
 	top:100px;
-	left:100px;
-	width:50px;
-	height:50px;
+	left:200px;
+	width:100px;
+	height:100px;
 	background-color:red;}
 
-#cube2 {}
+#cube2{position:absolute;
+	top:50px;
+	left:200px;
+	width: 150px;
+	height: 100px;
+	transform: skew (20deg);
+	transform: skew(20deg);
+	transform: skew(20deg);
+	background-color: green;
+}
 
 #cube3 {}
