@@ -33,8 +33,10 @@
 #cube2{position:absolute;
 	top:50px;
 	left:200px;
-	width: 100px;
-	height: 50px;
+	width:100px;
+	height:50px;
+	transform: skew (-20deg);
+	transform: skew (-20deg);
 	transform: skew (-20deg);
 	background-color: green;
 }
