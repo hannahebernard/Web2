@@ -1,6 +1,6 @@
 * {}
 
-#wrapper {position:relative;
+div #wrapper {
 	margin: 0 auto; 
 	width: 500px;
 	background-color:black;
