@@ -1,0 +1,59 @@
+* {margin:0;
+padding:0;}
+
+body {background-color:#292929;}
+
+
+
+#wrapper {position:relative;
+	width:960px;
+	min-height:1000px;
+	margin:0 auto; 
+	padding:0;
+}
+
+#header {position:absolute;
+		top: 50px;}
+
+#header ul li {display:inline-block;
+	color:white;
+	font-size:12px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 1px;
+}
+
+#name {margin-left:600px;}
+
+
+#triangle1 {position:absolute;
+	top:200px;
+	left:299px;
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 300px solid #488adc;
+}
+
+#rotate {
+	position:absolute;
+	top:291px;
+	left:431px;
+	transform: rotate(71.5deg);
+}
+
+		#triangle2 {
+			width: 0;
+			height: 0;
+			border-left: 240px solid transparent;
+			border-right: 80px solid transparent;
+			border-bottom: 90px solid #143653;
+}
+
+#label p {position:absolute;
+	bottom:400px;
+	left:450px;
+	color:white;
+	font-size:16px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;}

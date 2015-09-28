@@ -1,42 +1,69 @@
-* {}
+* {margin:0;
+padding:0;}
+
+body {background-color:#292929;}
+
+
 
 #wrapper {position:relative;
 	width:960px;
 	min-height:1000px;
 	margin:0 auto; 
 	padding:0;
-	background-color:black;
 }
 
-#header p {display: inline-block;
+#header {position:absolute;
+		top: 50px;}
+
+#header ul li {display:inline-block;
 	color:white;
 	font-size:12px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 1px;
 }
 
+#name {margin-left:600px;}
 
-#triangle1 {
-	width: 0;
-	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid blue;
+#drawing {position:absolute;
+	left:30px;
+	width:500px;
+	height:500px;
 }
 
 #cube1 {display: block;
 	position:absolute;
-	top:100px;
-	left:200px;
-	width:100px;
-	height:100px;
-	background-color:red;}
+	top:200px;
+	left:300px;
+	width:300px;
+	height:300px;
+	background-color:#dc4848;}
 
 #cube2{position:absolute;
-	top:50px;
-	left:200px;
-	width:100px;
-	height:50px;
-	transform: skew (40deg);
-	background-color: blue;
+	top:160px;
+	left:307px;
+	width:300px;
+	height:40px;
+	transform: skew(-20deg);
+	background-color:#9f2121;
 }
 
-#cube3 {}
+	#rotate {position:absolute;
+	top:322px;
+	left:456px;
+	transform: rotate(90deg);}
+
+
+				#cube3 {
+					width:303px;
+					height:15px;
+					transform: skew(69deg);
+					background-color:#531414;}
+
+
+#label p {position:absolute;
+	bottom:400px;
+	left:450px;
+	color:white;
+	font-size:16px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;}

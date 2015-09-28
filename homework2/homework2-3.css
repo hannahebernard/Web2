@@ -1,0 +1,93 @@
+* {margin:0;
+padding:0;}
+
+body {background-color:#292929;}
+
+
+
+#wrapper {position:relative;
+	width:960px;
+	min-height:1000px;
+	margin:0 auto; 
+	padding:0;
+}
+
+#header {position:absolute;
+		top: 50px;}
+
+#header ul li {display:inline-block;
+	color:white;
+	font-size:12px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 1px;
+}
+
+#name {margin-left:600px;}
+
+
+#triangle1 {position:absolute;
+	top:200px;
+	left:299px;
+	width: 0;
+	height: 0;
+	border-left: 200px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 300px solid #4fbaa5;
+}
+
+#rotate {
+	position:absolute;
+	top:291px;
+	left:431px;
+	transform: rotate(71.5deg);
+}
+
+		#triangle2 {
+			width: 0;
+			height: 0;
+			border-left: 300px solid transparent;
+			border-right: 20px solid transparent;
+			border-bottom: 90px solid #347568;
+}
+
+#rotate3 {
+	position:absolute;
+	top:500px;
+	left:300px;
+
+}
+
+		#triangle3 {
+			width: 0;
+			height: 0;
+			border-left: 225px solid transparent;
+			border-right: 74px solid transparent;
+			border-top: 200px solid #224b43;
+
+}
+
+#rotate4 {
+	position:absolute;
+	top:545px;
+	left:436px;
+	transform:rotate(-58deg);
+}
+
+		#triangle4 {width: 0;
+			height: 0;
+			border-left: 210px solid transparent;
+			border-right: 85px solid transparent;
+			border-bottom: 42px solid #14362f;
+
+		}
+			
+
+
+
+#label p {position:absolute;
+	bottom:200px;
+	left:450px;
+	color:white;
+	font-size:16px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;}
