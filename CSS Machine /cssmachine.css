@@ -17,6 +17,7 @@ body {background-color:#292929;}
 
 #header ul li {display:inline-block;
 	color:white;
+	text-decoration: none ;
 	font-size:12px;
 	font-family: 'Arvo', serif;
 	letter-spacing: 1px;
@@ -24,9 +25,9 @@ body {background-color:#292929;}
 
 #name {margin-left:600px;}
 
-#drawing {position:relative;
+#drawing {margin:0 auto;
 	width:500px;
-	height:500px;
+	height:1000px;
 	background-color:red;
 
 }
