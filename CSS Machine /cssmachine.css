@@ -15,13 +15,6 @@ body {background-color:#292929;}
 #header {position:absolute;
 		top: 50px;}
 
-#header ul li {display:inline-block;
-	color:white;
-	text-decoration: none ;
-	font-size:12px;
-	font-family: 'Arvo', serif;
-	letter-spacing: 1px;
-}
 
 #name {margin-left:600px;}
 
@@ -32,10 +25,3 @@ body {background-color:#292929;}
 
 }
 
-#label p {position:absolute;
-	bottom:400px;
-	left:450px;
-	color:white;
-	font-size:16px;
-	font-family: 'Arvo', serif;
-	letter-spacing: 2px;}
