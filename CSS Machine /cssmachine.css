@@ -1,0 +1,40 @@
+* {margin:0;
+padding:0;}
+
+body {background-color:#292929;}
+
+
+
+#wrapper {position:relative;
+	width:960px;
+	min-height:1000px;
+	margin:0 auto; 
+	padding:0;
+}
+
+#header {position:absolute;
+		top: 50px;}
+
+#header ul li {display:inline-block;
+	color:white;
+	font-size:12px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 1px;
+}
+
+#name {margin-left:600px;}
+
+#drawing {position:relative;
+	width:500px;
+	height:500px;
+	background-color:red;
+
+}
+
+#label p {position:absolute;
+	bottom:400px;
+	left:450px;
+	color:white;
+	font-size:16px;
+	font-family: 'Arvo', serif;
+	letter-spacing: 2px;}
