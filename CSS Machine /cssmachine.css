@@ -15,13 +15,17 @@ body {background-color:#292929;}
 #header {position:absolute;
 		top: 50px;}
 
-
-#name {margin-left:600px;}
-
 #drawing {margin:0 auto;
 	width:75%;
 	height:1000px;
 	background-color:red;
 
 }
+
+#base {position:absolute;
+	width:400px;
+	height:200px;
+	background-color:blue;}
+
+
 
