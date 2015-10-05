@@ -1,7 +1,7 @@
 * {margin:0;
 padding:0;}
 
-body {background-color:#292929;}
+body { background-color:#9ac6c8;}
 
 
 
@@ -18,14 +18,421 @@ body {background-color:#292929;}
 #drawing {margin:0 auto;
 	width:75%;
 	height:1000px;
-	background-color:red;
+}
+
+
+#base {position:relative;
+	top:400px;
+	left:115px;
+	width:500px;
+	height:300px;
+	background-color:#495757;
+	}
+
+#divider {position:absolute;
+	top:60px;
+	left:250px;
+	width:5px;
+	height:230px;
+	background-color:#253030;
+	}
+
+
+#buttonspanel {position:absolute;
+	left:-150px;
+	width:800px;
+	height:50px;
+	background-color:#121d1d;
+}
+
+
+#onoff {position:absolute;
+	top:15px;
+	left:150px;
+	width:50px;
+	height:22px;
+	background-color:black;
 
 }
 
-#base {position:absolute;
-	width:400px;
+.onoff {position:absolute;
+	top:4px;
+	width:20px;
+	height:15px;
+}
+
+.on {background-color: #921925;
+	left:26px;
+}
+
+.off{background-color: #19923e;
+	left:4px;
+}
+
+
+.dial {position:absolute;
+	top:10px;
+	background-color:black;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;}
+
+.dial1 {left: 312px;}
+
+
+.dial2{left: 387px;}
+
+
+.dial3{left: 462px;}
+
+.insidedial {position:absolute;
+	top:5px;
+	left:5px;
+	background-color:white;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;}
+
+  .line {position:absolute;
+  	left:8px;
+  	top:1px;
+  	width:5px;
+  	height:18px;
+  	background-color:black;
+  	border-radius:30%;
+  }
+
+#top {position:absolute;
+	bottom:545px;
+	left:-58px;
+    background: none repeat scroll 0 0 #686c6c;
+    border-radius: 100px 100px 0 0;
+    height: 80px;
+    width: 614px;
+
+} 
+
+#lid {position: absolute;
+	bottom:365px;
+	left:-38px;
+	height: 0px;
+    width: 365px;
+    margin: 10px -20px;
+    border-bottom: 170px solid #3e4444;
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+	transform:rotate(180deg);}
+
+	#grilltop {position: absolute;
+	top:-10px;
+	left:-45px;
+	height: 0px;
+    width: 300px;
+    margin: 10px -20px;
+    border-bottom: 150px solid black;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+	}
+
+
+
+	#bar {position:absolute;
+		top:165px;
+		left:-125px;
+		width:619px;
+		height: 20px;
+
+	}
+
+	#handle {position:absolute;
+		left:245px;
+		top:10px;
+		width:110px;
+		height:15px;
+		background-color:black;
+		border-radius: 50px;
+	}
+
+	.sides {
+		width:7px;
+		height:10px;
+		background-color:black;
+		border-radius: 50px;
+		transform:rotate(90deg);
+	}
+
+	.lefthandle {position:absolute;
+		left:7px;
+		top:-8px;}
+
+	.righthandle {position:absolute;
+		left:96px;
+		top:-8px;}
+
+
+
+
+
+#grill { 
+	position: absolute;
+	bottom: 290px;
+	left:20px;
+	height: 0px;
+    width: 300px;
+    margin: 10px -20px;
+    border-bottom: 75px solid gray;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    z-index:1;
+}
+
+.grillinside {width:300px;
+	height:75px;
+	background-color:darkgray;
+	z-index:2;
+
+	}
+
+	.grillbar {position:absolute;
+		
+		width:5px;
+		
+		background-color:black;
+		z-index:3;
+	}
+
+	.grillbar1 {top:-100px;
+		left:100px;
+		height:120px;
+		transform:rotate(49deg);
+
+	
+}
+
+	.grillbar2 {top:-100px;
+		left:175px;
+		height:103px;
+		transform:rotate(20deg);
+
+	}
+
+		.grillbar21 {top:-100px;
+		left:140px;
+		height:110px;
+		transform:rotate(35deg);
+
+	}
+
+
+
+	.grillbar31 {top:-100px;
+		left:210px;
+		height:100px;
+		transform:rotate(10deg);
+	}
+
+	.grillbar3 {top:-100px;
+		left:250px;
+		height:100px;
+	}
+
+
+	.grillbar32 {top:-100px;
+		left:290px;
+		height:100px;
+		transform:rotate(-10deg);
+	}
+
+
+	.grillbar4 {top:-100px;
+		left:360px;
+		height:110px;
+		transform:rotate(-35deg);}
+
+	.grillbar41 {top:-100px;
+		left:325px;
+		height:103px;
+		transform:rotate(-20deg);}
+
+	.grillbar5 {top:-100px;
+		left:400px;
+		height:120px;
+		transform:rotate(-49deg);}
+
+
+#lefttable {position:absolute;
+	bottom:300px;
+	left:-100px;
+    background: none repeat scroll 0 0 #3a4444;
+    height: 75px;
+    margin-top: 25px;
+    transform: skew(-53deg);
+    width: 150px;
+	z-index:1;}
+
+#righttable {position:absolute;
+	bottom:300px;
+	left:450px;
+	background: none repeat scroll 0 0 #3a4444;
+    height: 75px;
+    margin-top: 25px;
+    transform: skew(53deg);
+    width: 150px;}
+
+
+	.legs{
+		width:20px;
+		height:70px;
+		background-color:#495757;}
+
+	.leg1{position:absolute;
+	top:300px;
+	left:460px;
+		}
+
+	.leg2{position:absolute;
+		top:300px;
+		left:20px;}
+
+	.wheeloutside {background-color:black;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;}
+
+	.outside1 {position: absolute;
+		top:50px;
+		left:-15px;}
+
+	.outside2 {position: absolute;
+		top:50px;
+		left:-15px;}
+
+	.wheelinside {background-color:white;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;}
+
+	.inside1 {position: absolute;
+		top:15px;
+		left:15px;
+	}
+
+	.inside2 {position: absolute;
+		top:15px;
+		left:15px;
+	}
+
+.backlegs {position:absolute;
+		top:260px;
+		width:13px;
+		height:70px;
+		background-color:#495757;}
+
+.backleg1 {
+left:60px;}
+
+.backleg2 {
+left:420px;}
+
+.backoutside {position:absolute;
+	top:55px;
+	background-color:black;
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+	left:-12px;}
+
+.backoutside1 {}
+
+.backinside1 {}
+
+
+.backinside {position:absolute;
+	top:11px;
+	left:11px;
+	background-color:white;
+    border-radius: 50px;
+    height: 13px;
+    width: 13px;}
+
+.tank {position:absolute;
+	top:580px;
+	left:800px;
+	width:150px;
 	height:200px;
-	background-color:blue;}
+	background-color:#838484;
+
+}
+
+.tanktop {position:absolute;
+	top:150px;
+	background: none repeat scroll 0 0 #838484;
+    border-radius: 100px / 50px;
+    height: 50px;
+    margin-top: 25px;
+    width: 150px;}
+
+.tankbottom {position:absolute;
+	top:-50px;
+	background: none repeat scroll 0 0 black;
+    border-radius: 100px / 50px;
+    height: 50px;
+    margin-top: 25px;
+    width: 150px;}
+
+
+.gearbase {position:absolute;
+top:550px;
+right:78px;
+width:20px;
+height:30px;
+background-color:#3d3e3d;
+border-radius: 100px / 50px;}
+
+.geartop1 {position:absolute;
+	top:-15px;
+	left:-28px;
+    background: none repeat scroll 0% 0% white;
+    width: 10px;
+    height: 30px;
+    position: relative;
+    margin-left: 33px;
+    border-radius: 20px;
+    
+}
+
+.geartop2 { background: none repeat scroll 0% 0% white;
+	position:absolute;
+	top:-8px;
+	left:-33px;
+    width: 10px;
+    height: 45px;
+    position: relative;
+    margin-left: 33px;
+    border-radius: 20px;
+    transform:rotate(90deg);
+
+}
+
+
+
+.gearconnector {position:absolute;
+top:-50px;
+right:80;
+width:6px;
+height:130px;
+background-color:white;
+transform:rotate(90deg);
+border-radius: 100px / 50px;
+
+}
+
+
+
+
+
+
+
 
 
 
