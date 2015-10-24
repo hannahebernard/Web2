@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+
+<script src='http://cykod.github.io/Logoish/logoish.js'></script>
+<script>
+Logoish.init();
+
+speed(0);
+
+function hslColor(hue,saturation,lightness,alpha) {
+  lineColor("hsla(" + hue + "," + saturation + "%," + lightness + "%," + alpha + ")") 
+}
+
+function star(size) {
+  var x =108; y=324;
+    rotate(x);
+  forward(size);
+    rotate(y);
+  forward(size);
+   rotate(x);
+  forward(size);
+    rotate(y);
+  forward(size);
+   rotate(x);
+  forward(size);
+    rotate(y);
+  forward(size);
+   rotate(x);
+  forward(size);
+    rotate(y);
+  forward(size);
+   rotate(x);
+  forward(size);
+    rotate(y);
+  forward(size);
+
+}
+
+
+function starFlower(){
+  for(var x = 20; x < 40; x++) {
+  hslColor(x*8,50,30,1);
+  rotate(20);
+  star(30);
+}}
+
+moveTo (200,300);
+
+for(var x = 20; x < 100; x++) {
+starFlower();
+skip(200);
+}
+
+
+
+</script>
+</body> 
+
+</html>

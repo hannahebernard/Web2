@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+
+* {margin:0;
+padding:0;}
+
+    #wrapper {position:relative;
+  width:100%;
+  margin:0 auto; 
+  margin-left: 50%;
+  padding:0;}
+
+    </style> 
+
+</head>
+<body>
+
+<div id="wrapper" style="position: absolute; width: 100%; height: 100%;"> <canvas width="1164" height="528"> </canvas> >
+<script src='http://cykod.github.io/Logoish/logoish.js'></script>
+<script>
+Logoish.init();
+
+speed(0);
+
+function hslColor(hue,saturation,lightness,alpha) {
+  lineColor("hsla(" + hue + "," + saturation + "%," + lightness + "%," + alpha + ")") 
+}
+
+function octagon(size) {
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+    rotate(45);
+  forward(size);
+}
+
+
+for(var x = 20; x < 500; x++) {
+  hslColor(x*2,50,30,1);
+  moveTo(700,600);
+  rotate(45);
+  octagon(x);
+  
+}
+
+
+</script>
+
+</div> <!-- end wrapper -->
+</body> 
+
+</html>

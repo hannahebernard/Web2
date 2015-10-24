@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+
+<script src='http://cykod.github.io/Logoish/logoish.js'></script>
+<script>
+Logoish.init();
+
+speed(100);
+
+function hslColor(hue,saturation,lightness,alpha) {
+  lineColor("hsla(" + hue + "," + saturation + "%," + lightness + "%," + alpha + ")") 
+}
+
+function cube() {
+  var x =90; y=100;
+  rotate(x);
+  forward(y);
+    rotate(x);
+  forward(y);
+    rotate(x);
+  forward(y);
+    rotate(x);
+  forward(y);
+    rotate(45);
+  forward(60);
+    rotate(45);
+  forward(y);
+
+rotate(135);
+  forward(60);
+  rotate(180);
+  forward(60);
+
+
+    rotate(135);
+  forward(y);
+    rotate(45);
+  forward(60);
+    rotate(180);
+  forward(60);
+   rotate(-135);
+  forward(y);
+  rotate(x);
+  forward(y);
+
+}
+
+
+function cubeRotate(){
+  for(var x = 12; x <24; x++) {
+  hslColor(x*15,50,30,1);
+  cube();
+}}
+
+moveTo(150,550);
+cubeRotate();
+moveTo(250,550);
+cubeRotate();
+moveTo(350,550);
+cubeRotate();
+moveTo(450,550);
+cubeRotate();
+moveTo(550,550);
+cubeRotate();
+moveTo(650,550);
+cubeRotate();
+
+
+
+
+
+</script>
+</body> 
+
+</html>
