@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { font-family: 'Crimson Text', serif;}
+
+
+.page1 {
+background-image:url("photos/intro1.jpg");
+ min-height:1;
+ width:100vw;
+}
+
+.insidesyria {
+display: block;
+ margin: 0 auto;
+ position:relative;
+ top:80px;
+ width:100%px;
+}
+
+#gif {display:block;
+margin: 0 auto;}
+
+
+.arrived{opacity: 1.0;}
+
+
+.parallax-image {
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  width:vw;
+  height:100vh}
+
+
+.para1{
+  font-style:italic;
+  font-size:18px;
+color:white;
+  position:relative;
+  top:100px;
+  width:;
+  padding:10px;
+  text-align:center;
+margin:0 0px 0 auto;
+  line-height:18px;
+}
+
+ .downarrow {position:absolute;
+  bottom:-35px;
+margin:0 auto;
+  background-image:url("photos/white-down-arrow.png");
+  background-repeat: no-repeat;
+    background-position:50% 50%;
+  width:200px;
+  height:100px;
+}
+
+
+.page2arrived {opacity: 1.0;}
+
+.page3 {
+background-image:url("photos/intro2dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+
+.beginbox {width:200px;
+  height: 100vh;
+  margin:0 auto;
+  opacity:0.0;
+  transition: opacity 5s ease;}
+
+.boxarrive {opacity:1.0;}
+
+.pull2 {font-size:40px;
+color:white;
+  position:relative;
+  top:150px;
+  width:500px;
+  padding:70px;
+  text-align:center;
+  margin:0 auto;
+  line-height:50px;}
+
+  .page4 {background-color: #2e0000;
+opacity: 1.0;
+background-size:cover;
+  background-position:50% 50%;
+  background-attachment:fixed;
+  width: 100%;
+  min-height:150px;
+  position:relative;}
+
+  .choosetitle {font-size:25px;
+color:white;
+  position:relative;
+  top:30px;
+  width:500px;
+  padding:20px;
+  text-align:center;
+  margin:0 auto;
+  line-height:50px;}
+
+.page5 {background-image:url("photos/map.jpg");
+ height: 100vh;
+transition: -webkit-filter 4s ease;
+}
+
+.page5dark {-webkit-filter: grayscale(80%);
+}
+
+
+.stories {position:relative;
+  top:100px;
+  display:block;
+  margin: 0 auto;
+  width:1040px;
+  height:400px;}
+
+  .story {position:relative;
+  display: inline-block;
+  width:300px;
+  height:300px;
+  margin:10px;
+  background-repeat: no-repeat;
+  background-size:100%;
+    background-position:50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.story1 {background-image:url("photos/story1thumbnail.jpg");
+}
+
+.story1hover {background-image:url("photos/story1thumbnailhover.jpg");
+}
+
+.story1hoverstay {background-image:url("photos/story1thumbnailhover.jpg");
+}
+
+.storyp {
+  position:relative;
+opacity:0.0;
+font-style:italic;
+  font-size:25px;
+  line-height:35px;
+  color:white;
+  text-align:center;
+margin:0 0px 0 auto;
+padding-top:50px;
+}
+
+.story1p {}
+
+.story1phover {opacity:1.0;
+}
+
+.story1phoverstay {opacity:1.0;
+}
+
+.story2 {background-image:url("photos/story2thumbnail.jpg");
+}
+
+ .story2hover {background-image:url("photos/story2thumbnailhover.jpg");
+}
+
+.story2hoverstay {background-image:url("photos/story2thumbnailhover.jpg");
+}
+
+.story2p {}
+
+.story2phover {opacity:1.0;
+}
+
+.story2phoverstay {opacity:1.0;
+}
+
+.story3 {background-image:url("photos/story3thumbnail.jpg");
+}
+
+.story3hover {background-image:url("photos/story3thumbnailhover.jpg");
+}
+
+.story3hoverstay {background-image:url("photos/story3thumbnailhover.jpg");
+}
+
+.story3p {}
+
+.story3phover {opacity:1.0;
+}
+
+.story3phoverstay {opacity:1.0;
+}
+
+.containerinvisible {width:0;
+height:0;}
+
+.container{width:100vw;
+height:100vh;
+background-color:black;
+}
+
+
+.storyDetails {background-color: #2e0000;
+  position:relative;
+  width: 100vw;
+  height: 200px;}
+
+  .details {font-size:17px;
+    font-style:italic;
+color:white;
+  position:relative;
+  top:60px;
+  width:100vw;
+  text-align:center;
+  line-height:40px;
+}
+
+
+.load1page1 {
+background-image:url("photos/story1dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+.load1page2{background-color: black;
+  position:relative;
+  width: 100vw;
+  height: 180px;}
+
+.load1quote {font-size:60px;
+  font-style:bold;
+color:white;
+  position:relative;
+  margin: 0 auto;
+  top:200px;
+  width:900px;
+  text-align:center;
+  line-height:80px;
+  opacity:0.0;
+  transition: opacity 8s ease;
+}
+
+  .load1quotearrive {
+    opacity: 1.0;}
+
+.load1page3 {
+background-image:url("photos/story1road1.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+
+.downarrow2 {
+  position:absolute;
+  left:375px;
+  top:400px;
+  background-image:url("photos/black-down-arrow.png");
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+  width:200px;
+  height:100px;
+}
+
+
+
+
+.load2page1 {
+background-image:url("photos/story2dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+.load2page2{background-color: black;
+  position:relative;
+  width: 100vw;
+  height: 180px;}
+
+.load2quote {font-size:60px;
+  font-style:bold;
+color:white;
+  position:relative;
+  margin: 0 auto;
+  top:200px;
+  width:1000px;
+  text-align:center;
+  line-height:80px;
+  opacity:0.0;
+  transition: opacity 8s ease;
+}
+
+  .load2quotearrive {
+    opacity: 1.0;}
+
+.load2page3 {
+background-image:url("photos/story2road1.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+
+
+
+
+.load3page1 {
+background-image:url("photos/story3dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+.load3page2{background-color: black;
+  position:relative;
+  width: 100vw;
+  height: 180px;}
+
+.load3quote {font-size:60px;
+  font-style:bold;
+color:white;
+  position:relative;
+  margin: 0 auto;
+  top:200px;
+  width:1100px;
+  text-align:center;
+  line-height:80px;
+  opacity:0.0;
+  transition: opacity 8s ease;
+}
+
+  .load3quotearrive {
+    opacity: 1.0;}
+
+.load3page3 {
+background-image:url("photos/story3road1.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+
+}
+
+
