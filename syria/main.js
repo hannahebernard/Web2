@@ -61,11 +61,13 @@ $(".story3p").mouseleave(function(){
 });
 
 
-
-
-
-
 $(".story1").click(function(){
+  $(".container1").show();
+});
+
+
+
+/*$(".story1").click(function(){
 
 
 var $container = $(".container");
@@ -212,6 +214,6 @@ $load3page2.append($detailsTextThree);
 
 $load3page2.after($load3page3);
 
-});
+});*/
 
 

@@ -201,14 +201,9 @@ padding-top:50px;
 .story3phoverstay {opacity:1.0;
 }
 
-.containerinvisible {width:0;
-height:0;}
+.container1{display: none;}
 
-.container{width:100vw;
-height:100vh;
-background-color:black;
-}
-
+.container1show {display:inline;}
 
 .storyDetails {background-color: #2e0000;
   position:relative;
@@ -220,9 +215,10 @@ background-color:black;
 color:white;
   position:relative;
   top:60px;
-  width:100vw;
+  width:700px;
   text-align:center;
   line-height:40px;
+  margin: 0 auto;
 }
 
 
