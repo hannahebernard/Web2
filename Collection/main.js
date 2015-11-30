@@ -7,19 +7,23 @@ $(".book1").mouseleave(function(){
   $(".bookhover").hide();
 });*/
 
-function addBook(url) {
+function addBook() {
 
-  var url = ;
   var $wrapper = $(".collectioncontainer");
-  var $container = $("div class='bookscontainer'>");
-  var $book = $("<img class='book'>").attr("src",url);
+  var $container = $("<div class='bookscontainer'>");
+  var $book = $("<div class='book'>");
+  var $bookimg = $(" <img scr = "images/civil_disobedience.jpg" >").attr();
+
 
   
   $container.append($book)
 
+  $book.append($bookimg)
+
   $wrapper.append($container)
 
 }
+
 
 addBook();
 
