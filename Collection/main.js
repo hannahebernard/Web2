@@ -1,30 +1,21 @@
-/*$(".book1").mouseenter(function(){
+$(".book1").mouseenter(function(){
   $(".bookhover").show();
 });
 
 
 $(".book1").mouseleave(function(){
   $(".bookhover").hide();
-});*/
-
-function addBook() {
-
-  var $wrapper = $(".collectioncontainer");
-  var $container = $("<div class='bookscontainer'>");
-  var $book = $("<div class='book'>");
-  var $bookimg = $(" <img scr = "images/civil_disobedience.jpg" >").attr();
+});
 
 
-  
-  $container.append($book)
+$(".authordown").click(function(){
+  $(".authormenu").toggleClass("authormenushow");
+});
 
-  $book.append($bookimg)
-
-  $wrapper.append($container)
-
-}
+$(".genredown").click(function(){
+  $(".genremenu").toggleClass("genremenushow");
+});
 
 
-addBook();
 
 
