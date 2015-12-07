@@ -5,8 +5,14 @@
   <title> The Booket List</title>
   <link type="text/css" rel="stylesheet" href='style.css'/>
 
+  <script src='http://cykod.github.io/Collection.js/packery.pkgd.min.js'></script>
+
+ 	<script src='http://cykod.github.io/Collection.js/tabletop.js'></script>
+
    <script src='https://code.jquery.com/jquery-2.1.3.js'></script>
-   <script src='http://cykod.github.io/Collection.js/tabletop.js'></script>
+
+     <script src='collection.js'></script>
+
    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:400,300,600' rel='stylesheet' type='text/css'>
 
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -23,98 +29,141 @@
 	<ul class="filterslist">
 			<li class="author filter">Author <div class= "down authordown"></div> </li>
 
-			<li class="published filter">Date Published <div class= "down publisheddown"></div> </li>
+			<li class="published filter">Date Published <div class= "down publisheddown"></div> 
+			</li>
+
 			<li class="genre filter">Genre <div class= "down genredown"></div> </li>
-			<li class="location filter">Location <div class= "down locationdown"></div> </li>
+
+
+			<li class="location filter">Location <div class= "down locationdown"> </div> 
+
+
+			</li>
+
 			<li class="started filter">Started <div class= "down starteddown"></div> </li>
-			<li class="search">Search <div class="searchbar"></div></li>
+			<li class="search">Search <input type='text' class="searchbar"></input></li>
 	</ul>
-				<div class = "authormenu"> 
-					<ul>
-				<li>Albert Camus</li>
-				<li>Alice Walker</li>
-				<li>Aristotle</li>
-				<li>Arthur Golden</li>
-				<li>Charles Darwin</li>
-				<li>Charles Dickens</li>
-				<li>Charlotte Bronte</li>
-				<li>Chinua Achebe</li>
-				<li>Dan Brown</li>
-				<li>Dante Alighieri</li>
-				<li>Edith Wharton</li>
-				<li>Edwidge Danticat</li>
-				<li>Elizabeth Gaskell</li>
-				<li>Emily Brontë</li>
-				<li>Erskine Caldwell</li>
-				<li>F. Scott Fitzgerald</li>
-				<li>Fyodor Dostoevsky</li>
-				<li>Fyodor Dostoevsky</li>
-				<li>Gabriel Garcia Marquez</li>
-				<li>H. G. Wells</li>
-				<li>Harriet Jacobs</li>
-				<li>Henry David Thoreau</li>
-				<li>Henry James</li>
-				<li>Hermann Hesse</li>
-				<li>Ian McEwan</li>
-				<li>Ishmeal Beah</li>
-				<li>Jack London</li>
-				<li>Jacqueline Susann</li>
-				<li>James Dickey</li>
-				<li>James Joyce</li>
-				<li>Jane Austen </li>
-				<li>Joseph Conrad</li>
-				<li>Junot Díaz</li>
-				<li>Karl Marx/Freidrich Engles</li>
-				<li>Leo Tolstoy</li>
-				<li>Lewis Carroll</li>
-				<li>Oscar Wilde</li>
-				<li>Ralph Ellison</li>
-				<li>Robert M. Pirsig</li>
-				<li>Sun Tzu</li>
-				<li>Thomas Hardy</li>
-				<li>Upton Sinclair</li>
-				<li>V. S. Naipaul</li>
-				<li>W. E. B. Du Bois</li>
-				<li>Wilkie Collins</li>
-				<li>William Faulkner</li>
-				<li>William James</li>
-</ul>
-			</div> 
+		
 
-			<div class="genremenu">
+	<div class="authormenu">
 				<ul>
-					
-<li>American Fiction</li>
-<li>World Fiction
-<li>Drama</li>
-<li>Essays</li>
- <li>Lit Classics</li>
-<li>Mythology</li>
-<li>Letters</li>
-<li>Literary Criticism</li>
+<li>Albert Camus</li>
+<li>Alice Walker</li>
+<li>Aristotle</li>
+<li>Arthur Golden</li>
+<li>Charles Darwin</li>
+<li>Charles Dickens</li>
+<li>Charlotte Bronte</li>
+<li>Chinua Achebe</li>
+<li>Dan Brown</li>
+<li>Dante Alighieri</li>
+<li>Edith Wharton</li>
+<li>Edwidge Danticat</li>
+<li>Elizabeth Gaskell</li>
+<li>Emily Brontë</li>
+<li>Erskine Caldwell</li>
+<li>F. Scott Fitzgerald</li>
+<li>Fyodor Dostoevsky</li>
+<li>Gabriel Garcia Marquez</li>
+<li>H. G. Wells</li>
+<li>Harriet Jacobs</li>
+<li>Henry David Thoreau</li>
+<li>Henry James</li>
+<li>Hermann Hesse</li>
+<li>Ian McEwan</li>
+<li>Ishmeal Beah</li>
+<li>Jack London</li>
+<li>Jacqueline Susann</li>
+<li>James Dickey</li>
+<li>James Joyce</li>
+<li>Jane Austen</li> 
+<li>Joseph Conrad</li>
+<li>Junot Díaz</li>
+<li>Karl Marx/Freidrich Engles</li>
+<li>Leo Tolstoy</li>
+<li>Lewis Carroll</li>
+<li>Oscar Wilde</li>
+<li>Ralph Ellison</li>
+<li>Robert M. Pirsig</li>
+<li>Sun Tzu</li>
+<li>Thomas Hardy</li>
+<li>Upton Sinclair</li>
+<li>V. S. Naipaul</li>
+<li>W. E. B. Du Bois</li>
+<li>Wilkie Collins</li>
+<li>William Faulkner</li>
+<li>William James</li>
 
-					
 				</ul>
 
-			</div>
+
+		</div>
+
+
+	<div class="publishedmenu">
+				<ul>
+						<li>B.C.</li>
+						<li>1800 - 1849</li>
+						<li>1850 - 1899</li>
+						<li>1900 - 1949</li>
+						<li>1950 - 1999</li>
+						<li>2000+</li>
+						
+						
+
+				</ul>
+
+
+		</div>
+
+	<div class="genremenu">
+				<ul>
+						<li>Mystery</li>
+						<li>Poetry</li>
+						<li>Romance</li>
+						<li>Drama/Thriller</li>
+						<li>Essay</li>
+						<li>Letters</li>
+						<li>Non Ficiton</li>
+						<li>Other</li>
+
+				</ul>
+
+
+		</div>
+
+	<div class="startedmenu">
+				<ul>
+						<li>Started</li>
+						<li>Not Started</li>
+				</ul>
+
+
+		</div>
+
+		<div class="locationmenu">
+				<ul>
+						<li data-location="English" class='location' >English</li>
+						<li>American</li>
+						<li>Russian</li>
+						<li>Italian</li>
+						<li>French</li>
+						<li>Irish</li>
+						<li>German</li>
+
+				</ul>
+
+
+		</div>
+
+			
 </div>
 
 </div>
 <div class="collectioncontainer">
-	<div class="bookscontainer">
-
-			 <div class="book book1">
-				<div class="bookhover"></div>
-			</div>
-			<div class="book book2">
-
-			</div>
-			<div class="book book3">
-
-			</div>
-			<div class="book book4">
-			</div> 
-	</div>
+	<div class='overlay'></div>
+	<div class='modal'></div>
+	<div class="bookscontainer"></div>
 
 </div>
 
