@@ -27,25 +27,26 @@
 </div>
 <div class="filters">
 	<ul class="filterslist">
-			<li class="author filter">Author <div class= "down authordown"></div> </li>
+			<li data-location="" data-genre="" data-date="" data-started="" class="all filter">Show All</li>
 
-			<li class="published filter">Date Published <div class= "down publisheddown"></div> 
+			<li class="filter"> <span id="publishedfilter">Date Published</span> <div class= "down publisheddown"></div> 
 			</li>
 
-			<li class="genre filter">Genre <div class= "down genredown"></div> </li>
+			<li class="filter"> <span id="genrefilter"> Genre </span> <div class= "down genredown"></div> </li>
 
 
-			<li class="location filter">Location <div class= "down locationdown"> </div> 
+			<li class="filter"> <span id="locationfilter"> Location </span> <div class= "down locationdown">  </div> 
 
 
 			</li>
 
-			<li class="started filter">Started <div class= "down starteddown"></div> </li>
+			<li class="filter"> <span id="startedfilter" > Started </span> <div class= "down starteddown"></div> </li>
+
 			<li class="search">Search <input type='text' class="searchbar"></input></li>
 	</ul>
 		
 
-	<div class="authormenu">
+	<!--<div class="authormenu">
 				<ul>
 <li>Albert Camus</li>
 <li>Alice Walker</li>
@@ -97,18 +98,19 @@
 				</ul>
 
 
-		</div>
+		</div>-->
 
 
 	<div class="publishedmenu">
 				<ul>
-						<li>B.C.</li>
-						<li>1800 - 1849</li>
-						<li>1850 - 1899</li>
-						<li>1900 - 1949</li>
-						<li>1950 - 1999</li>
-						<li>2000+</li>
-						
+						<li data-date="B.C." class='date' >B.C.</li>
+						<li data-date="1800-1849" class='date' > 1800-1849</li>
+						<li data-date="1850-1899" class='date' >1850-1899 </li>
+						<li data-date="1900-1949" class='date' >1900-1949</li>
+						<li data-date="1950-1999" class='date' >1950-1999</li>
+						<li data-date="2000+" class='date' >2000+</li>
+						<li data-date="Unknown" class='date' >Unknown</li>
+						<li data-date="" class='date' >All Dates</li>
 						
 
 				</ul>
@@ -118,14 +120,17 @@
 
 	<div class="genremenu">
 				<ul>
-						<li>Mystery</li>
-						<li>Poetry</li>
-						<li>Romance</li>
-						<li>Drama/Thriller</li>
-						<li>Essay</li>
-						<li>Letters</li>
-						<li>Non Ficiton</li>
-						<li>Other</li>
+						<li data-genre="Essay" class='genre'>Essay</li>
+						<li data-genre="Short Story" class='genre'>Short Story</li>
+						<li data-genre="Play" class='genre'>Play</li>
+						<li data-genre="Novel" class='genre'>Novel</li>
+						<li data-genre="Historical" class='genre'>Historical</li>
+						<li data-genre="Memoir" class='genre'>Memoir</li>
+						<li data-genre="Narrative" class='genre'>Narrative</li>
+						<li data-genre="Philosophy" class='genre'>Philosophy</li>
+						<li data-genre="Poetry" class='genre'>Poetry</li>
+						<li data-genre="Non Fiction" class='genre'>NonFiction</li>
+						<li data-genre="" class='genre'>All Genres</li>
 
 				</ul>
 
@@ -134,8 +139,9 @@
 
 	<div class="startedmenu">
 				<ul>
-						<li>Started</li>
-						<li>Not Started</li>
+						<li data-started="Yes" class='started'>Yes</li>
+						<li data-started="No" class='started'>No</li>
+						<li data-started="" class='started'>Both</li>
 				</ul>
 
 
@@ -143,14 +149,16 @@
 
 		<div class="locationmenu">
 				<ul>
-						<li data-location="English" class='location' >English</li>
-						<li>American</li>
-						<li>Russian</li>
-						<li>Italian</li>
-						<li>French</li>
-						<li>Irish</li>
-						<li>German</li>
-
+						<li data-location="African" class='location' >African</li>
+						<li data-location="American" class='location' >American</li>
+						<li data-location="European" class='location' >European</li>
+						<li data-location="Russian" class='location' >Russian</li>
+						<li data-location="Italian" class='location' >Italian</li>
+						<li data-location="French" class='location' >French</li>
+						<li data-location="Irish" class='location' >Irish</li>
+						<li data-location="German" class='location' >German</li>
+						<li data-location="Caribbean" class='location' >Caribbean</li>
+						<li data-location="" class='location' >All Locations</li>
 				</ul>
 
 
