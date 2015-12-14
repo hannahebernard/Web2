@@ -86,13 +86,14 @@ function callback(data) {
 
  addBooks(data);
 
-  /* var $container = $('.collection');
-  $container.packery({
+
+   var $container = $('.collection');
+  /*$container.packery({
     itemSelector: '.book',
     gutter: 10,
   });*/
 
-  myCollection = $(".book").collection({
+  var myCollection = $(".book").collection({
     filters: { 
       "location-facet": "[data-location]",
       "genre-facet": "[data-genre]",
@@ -100,7 +101,8 @@ function callback(data) {
       "date-facet": "[data-date]",
     },
 
-     /* update: function() { 
+
+     /*update: function() { 
       $container.packery(); 
       setTimeout(function() { $container.packery()},600);
     },
@@ -197,9 +199,6 @@ function callback(data) {
        $("#startedfilter").text("Started")
   });
 
-  $(".searchbar").on("change keyup",function(e) {
-      myCollection.filtered("title", $(this).val());
-  });
 
 
 }

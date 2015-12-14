@@ -41,7 +41,7 @@ margin: 0 auto;}
   font-size:18px;
 color:white;
   position:relative;
-  top:100px;
+  top:80px;
   width:;
   padding:10px;
   text-align:center;
@@ -202,6 +202,8 @@ padding-top:50px;
 }
 
 .container1{display: none;}
+.container2{display: none;}
+.container3{display: none;}
 
 .container1show {display:inline;}
 
@@ -222,6 +224,28 @@ color:white;
 }
 
 
+  .details2 {font-size:17px;
+    font-style:italic;
+color:white;
+  position:relative;
+  top:40px;
+  width:500px;
+  text-align:center;
+  line-height:40px;
+  margin: 0 auto;
+}
+
+  .details3 {font-size:17px;
+    font-style:italic;
+color:white;
+  position:relative;
+  top:40px;
+  width:600px;
+  text-align:center;
+  line-height:40px;
+  margin: 0 auto;
+}
+
 .load1page1 {
 background-image:url("photos/story1dark.jpg");
   background-size:cover;
@@ -229,7 +253,24 @@ background-image:url("photos/story1dark.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   min-height:100vh;
+}
 
+.load2page1 {
+background-image:url("photos/story2dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+}
+
+.load3page1 {
+background-image:url("photos/story3dark.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
 }
 
 .load1page2{background-color: black;
@@ -260,8 +301,27 @@ background-image:url("photos/story1road1.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   min-height:100vh;
-
 }
+
+.load2page3 {
+background-image:url("photos/story2road1.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+}
+
+
+.load3page3 {
+background-image:url("photos/story3road1.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height:100vh;
+}
+
 
 
 .downarrow2 {
@@ -365,3 +425,104 @@ background-image:url("photos/story3road1.jpg");
 }
 
 
+/* Choose Your Journey GD4 
+
+#personaicon {
+background-repeat: no-repeat;
+background-size:100%;
+background-position:50% 50%;
+border-radius: 10px;
+background-image:url("photos/story3thumbnail.jpg");
+width:150px;
+height:150px;
+top:30px;
+left:30px;
+display:none;
+position:relative;
+display:block;
+}
+
+
+.location {width:100px;
+height:20px;
+border: 1px solid white;
+position: relative;
+display:block;
+left: 33px;
+top: 50px;
+text-align: center;
+padding:10px;
+color: white;
+font-size:15px;
+}
+
+
+
+.restart {width:100px;
+height:20px;
+border: 1px solid white;
+position: relative;
+display:block;
+left:800px;
+text-align: center;
+padding:10px;
+color: white;
+font-size:15px;
+}
+
+
+/*.option1 { 
+background-image:url("photos/whitearrow.png");
+width:100px;
+height:150px;
+position: relative;
+display:inline-block;
+top:0px;
+left:700px;
+
+}
+
+.option1:hover {background-image:url("photos/redarrow.png");}
+
+.hintshow { 
+  width:300px;
+  height:200px;
+  background-color:red;
+  display:none;
+}
+
+.option2 {background-image:url("photos/whitearrow.png");
+width:100px;
+height:150px;
+position: relative;
+display:inline-block;
+top:0px;
+left:800px;
+transform:rotate(90deg);
+}
+
+.option2:hover{background-image:url("photos/redarrow.png");}
+
+.result1 {
+display:none;
+width: 100vw;
+height:100vh;
+background-color:black;
+
+}
+
+
+.humantargetsbackground {
+background-image:url("photos/humantargets.jpg");
+ min-height:1;
+ width:100vw;
+}
+
+.insidesyria {
+display: block;
+ margin: 0 auto;
+ position:relative;
+ top:80px;
+ width:100%px;
+}
+*/

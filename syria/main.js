@@ -1,6 +1,8 @@
 
 $(".scroller").scrollFlight();
-$(".beginbox").on("arriving",function() {
+
+
+$(".beginbox").on("arriving",function(e) {
   $(this).addClass("boxarrive");
 });
 
@@ -63,8 +65,30 @@ $(".story3p").mouseleave(function(){
 
 $(".story1").click(function(){
   $(".container1").show();
+  $(".page5").addClass("page5dark");
 });
 
+
+$(".story2").click(function(){
+  $(".container2").show();
+  $(".page5").addClass("page5dark");
+});
+
+$(".story3").click(function(){
+  $(".container3").show();
+  $(".page5").addClass("page5dark");
+});
+
+
+/*Choose Your Journey GD4*/
+
+$(".load3page3").on("arrived",function(e) {
+$("#personaicon").show();
+});
+
+$(".option1").mouseenter(function(e){
+    $("#option1hint").addClass("hintshow");
+});
 
 
 /*$(".story1").click(function(){
