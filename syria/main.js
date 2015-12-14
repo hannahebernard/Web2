@@ -87,8 +87,22 @@ $("#personaicon").show();
 });
 
 $(".option1").mouseenter(function(e){
-    $("#option1hint").addClass("hintshow");
+    $(".option1hint").show();
 });
+
+$(".option1").mouseleave(function(e){
+    $(".option1hint").hide();
+});
+
+$(".option2").mouseenter(function(e){
+    $(".option2hint").show();
+});
+
+$(".option2").mouseleave(function(e){
+    $(".option2hint").hide();
+});
+
+
 
 
 /*$(".story1").click(function(){

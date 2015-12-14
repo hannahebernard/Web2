@@ -425,7 +425,7 @@ background-image:url("photos/story3road1.jpg");
 }
 
 
-/* Choose Your Journey GD4 
+/* Choose Your Journey GD4 */
 
 #personaicon {
 background-repeat: no-repeat;
@@ -439,7 +439,7 @@ top:30px;
 left:30px;
 display:none;
 position:relative;
-display:block;
+display:inline-block;
 }
 
 
@@ -448,12 +448,13 @@ height:20px;
 border: 1px solid white;
 position: relative;
 display:block;
-left: 33px;
-top: 50px;
+left: 30px;
+top: 40px;
 text-align: center;
 padding:10px;
 color: white;
 font-size:15px;
+cursor:pointer;
 }
 
 
@@ -462,43 +463,83 @@ font-size:15px;
 height:20px;
 border: 1px solid white;
 position: relative;
-display:block;
-left:800px;
+display:inline-block;
+left:30px;
+top:60px;
 text-align: center;
 padding:10px;
 color: white;
 font-size:15px;
+cursor:pointer;
 }
 
 
-/*.option1 { 
+.option1 { 
 background-image:url("photos/whitearrow.png");
 width:100px;
 height:150px;
 position: relative;
-display:inline-block;
-top:0px;
-left:700px;
-
+bottom:200px;
+left:500px;
+display:block;
 }
 
 .option1:hover {background-image:url("photos/redarrow.png");}
 
-.hintshow { 
+.option1hint { 
   width:300px;
-  height:200px;
-  background-color:red;
+  min-height:100px;
+  background-color: #2e0000;
+  opacity:0.9;
+  position:absolute;
+  top:180px;
+  right:30px;
   display:none;
+  padding:20px;
+  border-radius: 5px;
 }
+
+.option2hint { 
+  width:300px;
+  min-height:100px;
+  background-color: #2e0000;
+  opacity:0.9;
+  position:absolute;
+  top:0px;
+  left:50px;
+  display:none;
+  padding:20px;
+  border-radius: 5px;
+  transform:rotate(-90deg);
+}
+
+.hinttitle {font-size:20px;
+  font-style:italic;
+  color:white;
+  position:relative;
+  width:300px;
+  text-align:center;
+  line-height:40px;
+  padding-bottom:10px;
+
+}
+
+.hinttext{font-size:15px;
+  font-style:italic;
+  color:white;
+  position:relative;
+  width:300px;
+  text-align:left;
+  line-height:20px;}
 
 .option2 {background-image:url("photos/whitearrow.png");
 width:100px;
 height:150px;
 position: relative;
-display:inline-block;
-top:0px;
-left:800px;
+bottom:300px;
+left:700px;
 transform:rotate(90deg);
+display:block;
 }
 
 .option2:hover{background-image:url("photos/redarrow.png");}
@@ -511,18 +552,44 @@ background-color:black;
 
 }
 
-
+/*humantargets*/
 .humantargetsbackground {
 background-image:url("photos/humantargets.jpg");
  min-height:1;
  width:100vw;
 }
 
-.insidesyria {
-display: block;
- margin: 0 auto;
- position:relative;
- top:80px;
- width:100%px;
+.content {width:100vw;
+min-height:400px;
+opacity:0.8;
+background-color:black;
+position:relative;
+top:50px;}
+
+.locationstory {padding:100px;}
+
+.storytitle {position:relative;
 }
-*/
+
+.subtitle {font-size:20px;
+  font-style:italic;
+  color:white;
+  position:relative;
+  width:800px;
+  text-align:left;
+  line-height:40px;
+  padding-bottom:10px;}
+
+.locationtext {font-size:15px;
+  font-style:italic;
+  color:white;
+  position:relative;
+  width:800px;
+  text-align:left;
+  line-height:20px;}
+
+.data {}
+
+.storybutton {}
+
+.databutton{}
