@@ -102,7 +102,15 @@ $(".option2").mouseleave(function(e){
     $(".option2hint").hide();
 });
 
+$(".databutton").click(function(e) {
+$(".data1").show();
+$(".locationtext").hide();
+});
 
+$(".storybutton").click(function(e) {
+$(".locationtext").show();
+$(".data1").hide();
+});
 
 
 /*$(".story1").click(function(){

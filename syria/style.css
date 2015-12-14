@@ -445,15 +445,15 @@ display:inline-block;
 
 .location {width:100px;
 height:20px;
-border: 1px solid white;
 position: relative;
 display:block;
-left: 30px;
-top: 40px;
+left: 15px;
+top: 30px;
 text-align: center;
 padding:10px;
 color: white;
 font-size:15px;
+font-style: italic;
 cursor:pointer;
 }
 
@@ -465,7 +465,7 @@ border: 1px solid white;
 position: relative;
 display:inline-block;
 left:30px;
-top:60px;
+top:40px;
 text-align: center;
 padding:10px;
 color: white;
@@ -566,7 +566,9 @@ background-color:black;
 position:relative;
 top:50px;}
 
-.locationstory {padding:100px;}
+.locationstory {padding:20px;
+padding-left:100px;
+padding-top:30px;}
 
 .storytitle {position:relative;
 }
@@ -590,6 +592,41 @@ top:50px;}
 
 .data {}
 
-.storybutton {}
+.storybutton {width:50px;
+height:20px;
+border: 1px solid white;
+position: relative;
+display:inline-block;
+left:87%;
+top:60px;
+text-align: center;
+padding:5px;
+color: white;
+font-size:15px;
+cursor:pointer;
+z-index:2;}
 
-.databutton{}
+.storybutton:hover {
+  background-color: #2e0000;
+}
+
+.databutton{width:50px;
+height:20px;
+border: 1px solid white;
+position: relative;
+display:inline-block;
+left:88%;
+top:60px;
+text-align: center;
+padding:5px;
+color: white;
+font-size:15px;
+cursor:pointer;
+z-index:2;}
+
+.databutton:hover {
+  background-color: #2e0000;
+}
+
+
+.data1 {display:none;}
